@@ -10,11 +10,16 @@ const isNumberPositive = (number) => {
 
         console.log("False");
 
+    } else {
+        console.log("You have a neutral number");
     }
 }
 
 isNumberPositive(-1);
 isNumberPositive(10);
+isNumberPositive(0);
+
+
 
 //Challenge 2
 
