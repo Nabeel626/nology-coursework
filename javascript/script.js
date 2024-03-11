@@ -1,4 +1,4 @@
-//Challange 1
+//Challange 1 - Take a number and returns true if it is a positive number and false if it is a negative number
 
 const isNumberPositive = (number) => {
 
@@ -21,11 +21,30 @@ isNumberPositive(0);
 
 
 
-//Challenge 2
+//Challenge 2 - Take a number of days and converts it into an age
+
+const convertDaysToAge = (age) => {
+
+    const CalculateAge = age / 365;
+    console.log("Your Age is " + CalculateAge);
+
+}
+
+convertDaysToAge(3650);
+convertDaysToAge(6570);
 
 
 
-//Challenge 3
+//Challenge 3 - Take three numbers and returns the largest of the three numbers
+
+let getLargestNumber = (num1, num2, num3) => {
+
+    console.log(Math.max(num1, num2, num3));
+
+}
+
+getLargestNumber(2 , 1, 4);
+getLargestNumber(6,2,3);
 
 
 
