@@ -64,4 +64,24 @@ getLastName(["Ash","Stu"]);
 
 
 
-//Challenge 5
+//Challenge 5 - Take an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array
+
+let allNumbersPositive = (numbers) => {
+
+    let result = true;
+
+    for(let i = 0; i < numbers.length; i++) {
+        
+        if(numbers[i] <= 0) {
+
+            result = false;
+
+        }
+
+    }
+
+    console.log(result);
+}
+
+allNumbersPositive([2,4,5]);
+allNumbersPositive([-5,4,6])
