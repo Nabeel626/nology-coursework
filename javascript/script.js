@@ -48,7 +48,19 @@ getLargestNumber(6,2,3);
 
 
 
-//Challenge 4
+//Challenge 4 - Take an array of names and returns the last name from the array of names
+
+let getLastName = (lastArray) => {
+
+
+    let lastElement = lastArray.slice(-1);
+    console.log(lastElement);
+
+}
+
+getLastName(["Charlie", "Rob", "Andy"]);
+getLastName(["Ash","Stu"]);
+
 
 
 
