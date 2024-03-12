@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #001a66;
+  background-color: #fffff5;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.navigation {
+  height: 10vh;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation .logo {
+  color: #001a66;
+  font-weight: bold;
+  font-size: 38px;
+  font-family: "Passion One", cursive;
+}
+.navigation .button {
+  display: block;
+  width: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid #001a66;
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #001a66;
+}
+
+.mainHeading {
+  font-size: 35px;
+  font-family: "Concert One", cursive;
+  display: block;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  color: #00ace6;
+}
+
+.device-mockup {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parentingInformation {
+  display: block;
+  text-align: center;
+  padding: 65px;
+}
+.parentingInformation .button {
+  width: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid #001a66;
+  background-color: #001a66;
+  text-align: center;
+  padding: 15px 35px;
+  border-radius: 10px;
+  color: white;
+}
+.parentingInformation h2 {
+  font-size: 23px;
+}
+.parentingInformation h3 {
+  font-size: 20px;
+  color: #00ace6;
+}
+
+.cards {
+  display: block;
+  text-align: center;
+}
+
+footer {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-color: #ffffcc;
+}/*# sourceMappingURL=styling.css.map */

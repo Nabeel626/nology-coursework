@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+$font-body: "Trebuchet MS", Helvetica, sans-serif;
+$font-display: "Passion One", cursive;
+$font-display2: "Concert One", cursive;
+
+$color-backMain: #fffff5;
+$color-footer: #ffffcc;
+$color-main: #001a66;
+$color-heading: #00ace6;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-main;
+    background-color: $color-backMain;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+//Navigation
+
+.navigation {
+    height: 10vh;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        color: $color-main;
+        font-weight: bold;
+        font-size: 38px;
+        font-family: $font-display;
+    }
+
+    .button {
+        display: block;
+        width: 100px;
+        font-weight: bold;
+        font-size: 20px;
+        border: 2px solid $color-main;
+        background-color: transparent;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: $color-main;
+    }
+}
+
+
+//Main Content
+
+.mainHeading {
+    font-size: 35px;
+    font-family: $font-display2;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-heading;
+    
+}
+
+
+.device-mockup {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.parentingInformation {
+    display: block;
+    text-align: center;
+    padding: 65px;
+
+    .button {
+        
+        width: 100px;
+        font-weight: bold;
+        font-size: 20px;
+        border: 2px solid $color-main;
+        background-color: $color-main;
+        text-align: center;
+        padding: 15px 35px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 20px;
+        color: $color-heading;
+    }
+}
+
+.cards {
+    display: block;
+    text-align: center;
+}
+
+
+
+
+//Footer
+
+footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: $color-footer;
+}
