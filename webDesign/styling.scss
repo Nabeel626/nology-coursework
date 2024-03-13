@@ -57,14 +57,11 @@ a:visited {
 //Main Content
 
 .mainHeading {
-    font-size: 35px;
+    font-size: 33px;
+    padding: 10px 70px;
     font-family: $font-display2;
-    display: block;
     text-align: center;
-    justify-content: space-between;
-    align-items: center;
     color: $color-heading;
-    
 }
 
 
@@ -81,7 +78,6 @@ a:visited {
     padding: 65px;
 
     .button {
-        
         width: 100px;
         font-weight: bold;
         font-size: 20px;
@@ -98,14 +94,59 @@ a:visited {
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 21px;
         color: $color-heading;
     }
 }
 
-.cards {
+.section1 {
+    display: block;
+    padding: 10px;
+
+    h2 {
+        text-align: center;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .column1 {
+        float: left;
+        width: 66%;
+        padding: 50px 20px;
+        font-size: 20px;
+    }
+
+    .column2 {
+        float: left;
+        width: 33.33333%;
+        padding: 10px 15px;
+    }
+
+    img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+.signup {
     display: block;
     text-align: center;
+
+    .button {
+        font-weight: bold;
+        font-size: 20px;
+        border: 2px solid $color-main;
+        background-color: $color-main;
+        text-align: center;
+        padding: 15px 56px;
+        border-radius: 10px;
+        color: white;
+    }
 }
 
 
@@ -114,9 +155,17 @@ a:visited {
 //Footer
 
 footer {
-    display: block;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 40vh;
+    padding: 25px;
     background-color: $color-footer;
+    text-align: center;
+
+    a {
+        background-color: $color-footer;
+        font-size: 25px;
+        font-weight: bold;
+    }
 }

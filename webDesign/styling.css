@@ -41,12 +41,10 @@ a:visited {
 }
 
 .mainHeading {
-  font-size: 35px;
+  font-size: 33px;
+  padding: 10px 70px;
   font-family: "Concert One", cursive;
-  display: block;
   text-align: center;
-  justify-content: space-between;
-  align-items: center;
   color: #00ace6;
 }
 
@@ -76,19 +74,65 @@ a:visited {
   font-size: 23px;
 }
 .parentingInformation h3 {
-  font-size: 20px;
+  font-size: 21px;
   color: #00ace6;
 }
 
-.cards {
+.section1 {
+  display: block;
+  padding: 10px;
+}
+.section1 h2 {
+  text-align: center;
+}
+.section1 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.section1 .column1 {
+  float: left;
+  width: 66%;
+  padding: 50px 20px;
+  font-size: 20px;
+}
+.section1 .column2 {
+  float: left;
+  width: 33.33333%;
+  padding: 10px 15px;
+}
+.section1 img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.signup {
   display: block;
   text-align: center;
 }
+.signup .button {
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid #001a66;
+  background-color: #001a66;
+  text-align: center;
+  padding: 15px 56px;
+  border-radius: 10px;
+  color: white;
+}
 
 footer {
-  display: block;
+  display: grid;
   justify-content: center;
   align-items: center;
   height: 40vh;
+  padding: 25px;
   background-color: #ffffcc;
+  text-align: center;
+}
+footer a {
+  background-color: #ffffcc;
+  font-size: 25px;
+  font-weight: bold;
 }/*# sourceMappingURL=styling.css.map */
